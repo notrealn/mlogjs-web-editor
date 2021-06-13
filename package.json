@@ -15,8 +15,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.2.0",
     "gatsby": "^3.6.2",
+    "mlogjs": "^0.1.9",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-split-pane": "^0.1.92"
   }
 }

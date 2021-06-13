@@ -3,4 +3,5 @@ module.exports = {
     title: "mlogjs-web-editor",
   },
   plugins: [],
+  pathPrefix: "/mlogjs-web-editor"
 };

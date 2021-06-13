@@ -12,7 +12,6 @@ export default function App() {
 	const [value, setValue] = useState("");
 
 	useEffect(() => {
-		console.log(mlogjsDef);
 		if (monaco) {
 			monaco.languages.typescript.javascriptDefaults.setCompilerOptions({
 				noLib: true,

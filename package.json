@@ -10,8 +10,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build && cp -r ./public ./docs",
-    "serve": "gatsby serve",
+    "build": "gatsby build --prefix-paths && cp -r ./public ./docs",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean"
   },
   "dependencies": {
